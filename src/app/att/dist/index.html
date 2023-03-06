@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="attendanceModule">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <script src="angular.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(165, 165, 138);
+    }
+    table{
+    border-collapse: collapse;
+}
+table th, table td{
+    border:1px solid black;
+    padding: 18px 20px;
+}
+table th{
+    background-color: rgb(80, 55, 55);
+    color: white;
+}
+.present{
+    background-color: green;
+}
+.absent{
+    background-color: red;
+}
+.row{
+    background-color: rgb(16, 70, 16);
+}
+/* table td {
+    background-color: green;
+} */
+.absentMarked{
+    background-color: red;
+}
+</style>
+<body ng-app="attendanceModule" ng-controller="attendanceTaker">
+    <table class="ng-scope">
+        <thead>
+            <h1>Attedance</h1>
+
+        </thead>
+
+    <tr>
+        <th>sr.no</th>
+        <th>Name</th>
+        <th>Mob.no</th>
+        <th>Id.no</th>
+        <th>Attendance</th>
+    </tr>
+
+
+    <tr ng-repeat="student in student"
+     ng-class="getClass(student.reg)"
+     class="row"
+     id="{{student.reg}}">
+
+        <td>{{$index+1}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.reg}}</td>
+        <td>{{student.roll}}</td>
+        <td>
+            <select ng-model="students.attendance"
+             ng-click="getId(student.reg,index)"
+             ng-mouseleave="totalCount()">
+
+                <option value="p">present</option>
+                <option value="a">absent</option>
+            </select>
+        </td>
+    </tr>
+    </table>
+    <div>
+        <h5>total count : {{total}}</h5>
+    </div>
+    <div>
+        <h5>present:{{p}}</h5>
+        <h5>absent:{{a}}</h5>
+    </div>
+
+    <script src="attendanceModule.js"></script>
+</body>
+</html>

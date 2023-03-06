@@ -1,0 +1,29 @@
+.toolbar-item-spacer {
+    flex: 1 1 auto;
+}
+
+.app-container {
+    height: 100%;
+    margin: 0;
+width: 100%;
+}
+.app-sidenav {
+    width: 230px;
+}
+.app-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* span{
+margin: 10px 20px;
+} */
+
+.count{
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 25px;
+}

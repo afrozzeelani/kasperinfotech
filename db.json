@@ -1,0 +1,344 @@
+{
+  "user": [
+    {
+      "id": "afrozzeelani",
+      "name": "afroz",
+      "password": "Zeelani@123",
+      "email": "test@test.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "noida"
+      }
+    },
+    {
+      "id": "amar1",
+      "name": "amar",
+      "password": "Test@1234",
+      "email": "test@test.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "kasperinfotech",
+      "name": "kasper",
+      "password": "Test@1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "afroz",
+      "name": "afroz",
+      "password": "Zeelani@123",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "kasper",
+      "name": "kasper",
+      "password": "Test@1234",
+      "email": "kasper@test.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "kasper12",
+      "name": "Kasper",
+      "password": "Test@1234",
+      "email": "test@test.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "arjun",
+      "name": "arjan kumar",
+      "password": "Test@1233",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "afroz123",
+      "name": "afr",
+      "password": "Afroz@123",
+      "email": "afroz@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "afroz11111",
+      "name": "afroz",
+      "password": "Zeelani@123",
+      "email": "asd@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "utkarsh",
+      "name": "utkarsh",
+      "password": "Test@1234",
+      "email": "test@test.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    },
+    {
+      "code": "admin",
+      "name": "Admin"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "leave": [
+    {
+      "id": "11010",
+      "name": "afroz",
+      "fromdate": "2010-10-10",
+      "todate": "2010-11-10",
+      "email": "test@test.com",
+      "reason": "bjhvhvhjvgfxhgv",
+      "role": "Reject"
+    },
+    {
+      "id": "1011",
+      "name": "arjun",
+      "fromdate": "2000-02-22",
+      "todate": "2000-03-22",
+      "email": "as@gmail.com",
+      "reason": "hghhshsh",
+      "role": "Reject"
+    },
+    {
+      "id": "2222",
+      "name": "KASPER",
+      "fromdate": "2000-10-20",
+      "todate": "2000-10-20",
+      "email": "AFR@GMAIL.COM",
+      "reason": "NEED",
+      "role": "Reject"
+    },
+    {
+      "id": "1001",
+      "name": "arjun kumar",
+      "fromdate": "2023-02-23",
+      "todate": "2023-02-25",
+      "email": "tes@re.com",
+      "reason": "emerg",
+      "role": "Reject"
+    },
+    {
+      "id": "10011",
+      "name": "afroz",
+      "fromdate": "2000-02-02",
+      "todate": "2000-03-02",
+      "email": "cb@g.com",
+      "reason": "vchjgvhjdfgvfgvhj`",
+      "role": "Reject"
+    },
+    {
+      "id": "5000",
+      "name": "kasper",
+      "fromdate": "2002-02-01",
+      "todate": "2000-02-02",
+      "email": "test@test.com",
+      "reason": "neeee",
+      "role": "Aproved"
+    },
+    {
+      "id": "1010",
+      "name": "amar",
+      "fromdate": "2000-01-01",
+      "todate": "2000-01-01",
+      "email": "afr@gmail.com",
+      "reason": "nothing",
+      "role": "Aproved"
+    },
+    {
+      "id": "10001",
+      "name": "kasper12",
+      "fromdate": "2001-10-10",
+      "todate": "2001-10-10",
+      "email": "test@test.com",
+      "reason": "sone",
+      "role": "Aproved"
+    },
+    {
+      "id": "20000",
+      "name": "afr",
+      "fromdate": "2000-10-10",
+      "todate": "2000-02-20",
+      "email": "a@a.com",
+      "reason": "vsdjdsjg",
+      "role": "Aproved"
+    },
+    {
+      "id": "50000",
+      "name": "sachin",
+      "fromdate": "2000-10-10",
+      "todate": "2000-10-10",
+      "email": "dgh@gmail.com",
+      "reason": "hgdhdjhg",
+      "role": "Aproved"
+    },
+    {
+      "id": "50001",
+      "name": "sachin kumar",
+      "fromdate": "2000-10-10",
+      "todate": "2000-10-10",
+      "email": "dgh@gmail.com",
+      "reason": "hgdhdjhg",
+      "role": "Reject"
+    },
+    {
+      "id": "100000",
+      "name": "sachin kumar",
+      "fromdate": "2000-10-10",
+      "todate": "2000-10-10",
+      "email": "dsss@gmail.com",
+      "reason": "ASDFGH",
+      "role": "Reject"
+    },
+    {
+      "id": "100001",
+      "name": "amar kumar",
+      "fromdate": "2023-02-21",
+      "todate": "2023-02-25",
+      "email": "test@test.com",
+      "reason": "jhjhhj",
+      "role": "Aproved"
+    },
+    {
+      "id": "221122",
+      "name": "sonu",
+      "fromdate": "2000-05-02",
+      "todate": "2000-06-02",
+      "email": "test@test.com",
+      "reason": "gggghghgh",
+      "role": "Reject"
+    },
+    {
+      "id": "fvfdg",
+      "name": "vfvdf",
+      "fromdate": "",
+      "todate": "",
+      "email": "bfbf@dd.com",
+      "reason": "",
+      "role": "Aproved"
+    }
+  ],
+  "role2": [
+    {
+      "code": "Aproved",
+      "name": "Aproved"
+    },
+    {
+      "code": "Reject",
+      "name": "reject"
+    },
+    {
+      "role": "admin",
+      "menu": "Admin"
+    }
+  ],
+  "profile": [
+    {
+      "firstname": "Afroz",
+      "lastname": "Zeelani",
+      "birthdate": "2000-01-10",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Kasper",
+      "jobExperience": 2,
+      "salary": 5,
+      "profile": "Profile-01.jpg",
+      "id": 1
+    },
+    {
+      "firstname": "Arjun",
+      "lastname": "kumar",
+      "birthdate": "2000-01-10",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Kasper",
+      "jobExperience": 5,
+      "salary": 10,
+      "profile": "Profile-03.jpg",
+      "id": 2
+    },
+    {
+      "firstname": "Amar",
+      "lastname": "kumar",
+      "birthdate": "2000-01-10",
+      "gender": "m",
+      "education": "post graduate",
+      "company": "Kasper",
+      "jobExperience": 5,
+      "salary": 10,
+      "profile": "Profile-02.jpg",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "post": {
+    "name": "typicode"
+  }
+}
